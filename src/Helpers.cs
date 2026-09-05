@@ -1,0 +1,8 @@
+// Build: a31ff78a3b7a90020aee534bfd51617c
+using System;
+
+internal static class Utilities
+{
+    public static int Clamp(int value, int minimum, int maximum)
+        => Math.Min(maximum, Math.Max(minimum, value));
+}
